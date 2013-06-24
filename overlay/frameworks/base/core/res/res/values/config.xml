@@ -248,4 +248,8 @@
          supports Samsung Galaxy S4. -->
     <bool name="config_enableIrdaManagerService">true</bool>
 
+    <!-- empty string to disable, or like: /sys/kernel/fast_charge
+         it is disabled by default so devices need to add an overlay to enable-->
+    <string name="config_fastChargePath" translatable="false">/sys/kernel/fast_charge/force_fast_charge</string>
+
 </resources>
