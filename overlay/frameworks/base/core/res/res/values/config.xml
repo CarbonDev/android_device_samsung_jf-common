@@ -49,11 +49,6 @@
         <item>1000</item>
         <item>5000</item>
     </integer-array>
-    
-    
-    
-
-
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
@@ -246,8 +241,6 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">7</integer>
-
-    <bool name="config_enableIrdaManagerService">true</bool>
 
     <bool name="config_enableWifiDisplay">true</bool>
 
